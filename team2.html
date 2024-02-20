@@ -22,6 +22,8 @@
 <script src="templates/navbar.js" type="text/javascript" defer></script>
 <script src="templates/footer.js" type="text/javascript" defer></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="members.css">
+
 <style>
   body{
     background-color: #f9f9f9;
@@ -309,9 +311,13 @@
             margin: auto;
         }
       } */
-
+      .header-team {
+    
+}
 </style>
+ 
     <link rel="icon" type="image/x-icon" href="logos/DSAI.jpeg">
+
 </head>
 
 <body>
@@ -347,7 +353,11 @@
   <section>
     <section id="title" style="margin-top: 84px">
     
-        <header class="header" style="width: 100%; ">
+        <header class=".header-team" style="width: 100%;margin: 0;
+        padding: 0;
+        background-color: #1f2022;
+        padding: 4rem 2rem;
+        text-align: center; ">
           <h1 class="header__title" style="display: inline">Our Team</h1>
           <button style="position: relative;margin-left: 10px; margin-bottom: 18px" class="btn btn-secondary btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #212121; color: #f9f9f9; position: absolute; margin-top: 16px; margin-bottom: 16px; right: 0; margin-right: 5%">
             Year
@@ -371,7 +381,10 @@
                 <!-- <div class="team-block col-lg-4 col-md-6 col-sm-8">
                     <div class="animated-text moving"><h2 style="margin-bottom:75%" data-text="Faculty">Faculty</h2></div>
                 </div> -->
-                <div class="movable team-block col-lg-4 col-md-6 col-sm-6 col-6">
+                
+                <div class="movable col-lg-4 col-md-6 col-sm-8">
+                    <div class="item" style="color: #1f2022;text-align:right;font-size:2rem; padding-top:30%" data-aos="fade-right"><div class="animated-text moving"><h2 data-text="Faculty">Faculty</h2></div></div>
+                    <div class="item" style="color: #1f2022;text-align:right;font-size:2rem;" data-aos="fade-left"><div class="animated-text moving"><h2 data-text="Advisor">Advisor</h2></div></div>
                 </div>
                 <div class="team-block col-lg-4 col-md-6 col-sm-8">
                     
@@ -388,17 +401,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="movable col-lg-4 col-md-6 col-sm-8">
-                    <div class="item" style="color: #1f2022;text-align:right;font-size:2rem; padding-top:30%" data-aos="fade-left"><div class="animated-text moving"><h2 data-text="Faculty">Faculty</h2></div></div>
-                    <div class="item" style="color: #1f2022;text-align:right;font-size:2rem;" data-aos="fade-left"><div class="animated-text moving"><h2 data-text="Advisor">Advisor</h2></div></div>
+                <div class="movable team-block col-lg-4 col-md-6 col-sm-6 col-6">
                 </div>
                 
                 <!-- <div class="team-block col-lg-4 col-md-6 col-sm-8">
                     <div class="animated-text moving"><h2 style="margin-top:75%" data-text="Advisor">Advisor</h2></div>
                 </div> -->
                 <!-- Team Block -->
-          <!-- <div class="animated-text moving"><h2 style="margin-top:35%" data-text="Coding...">Coding...</h2></div> -->
-          </div>
+               <!-- <div class="animated-text moving"><h2 style="margin-top:35%" data-text="Coding...">Coding...</h2></div> -->
+        
+        </div>
+        <div class="row clearfix justify-content-md-center">
+                
+            <!-- Team Block -->
+            <!-- <div class="team-block col-lg-4 col-md-6 col-sm-8">
+                <div class="animated-text moving"><h2 style="margin-bottom:75%" data-text="Faculty">Faculty</h2></div>
+            </div> -->
+            <div class="movable team-block col-lg-4 col-md-6 col-sm-6 col-6">
+            </div>
+            <div class="team-block col-lg-4 col-md-6 col-sm-8">
+                
+                <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <ul class="social-icons">
+                        <li><a href="https://www.coep.org.in/mycoep/tjjcompcoepacin"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                    <div class="image img-responsive">
+                        <img src="./images/2023/faculty/tjj.jpg" alt="" />
+                    </div>
+                    <div class="lower-content">
+                        <h3>TRISHNA UGALE</h3>
+                        <div class="designation">Co-faculty Advisor</div>
+                    </div>
+                </div>
+            </div>
+            <div class="movable col-lg-4 col-md-6 col-sm-8">
+                <div class="item" style="color: #1f2022;text-align:right;font-size:2rem; padding-top:30%" data-aos="fade-left"><div class="animated-text moving"><h2 data-text="Faculty">Co-faculty</h2></div></div>
+                <div class="item" style="color: #1f2022;text-align:right;font-size:2rem;" data-aos="fade-left"><div class="animated-text moving"><h2 data-text="Advisor">Advisor</h2></div></div>
+            </div>
+            
+            <!-- <div class="team-block col-lg-4 col-md-6 col-sm-8">
+                <div class="animated-text moving"><h2 style="margin-top:75%" data-text="Advisor">Advisor</h2></div>
+            </div> -->
+            <!-- Team Block -->
+           <!-- <div class="animated-text moving"><h2 style="margin-top:35%" data-text="Coding...">Coding...</h2></div> -->
+    
+    </div>
                 <!-- Team Block -->
                 <div class="sec-title centered">
                 
@@ -537,7 +584,15 @@
           </div>
         </div>
     </section>
+
 </section>
+<section class="section-members">
+    <header class="header-member">
+      <h1>Members</h1>
+      
+    </header>
+    <div class="grid-container"> </div>
+  </section> 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 <script>
@@ -546,4 +601,5 @@
       });
 </script>
    <!-- Mirrored from www.coep.org.in/dsai/assets/index3.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jan 2021 06:34:50 GMT -->
+   <script src="members.js"></script>
 </html>
